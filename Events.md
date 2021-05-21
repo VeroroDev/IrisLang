@@ -1,9 +1,3 @@
-#Iris Lang
-
-I'm gonna talk about the features that not every language does have, by now, you can assume it will have global variables, global functions, structures to combine different types, etc...(tho, i will explain these in the future, very near future)
-
-##Native Events
-
 The syntax to create an event would be like ``event MyEvent Trigger
 {
 the code...
