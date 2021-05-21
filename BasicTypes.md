@@ -43,10 +43,12 @@ fn foo() f32
 {
 }
 
+f32 foo_result;
+
 fn callback()
 {
   del4 = foo;
-  del4(); //here we are calling foo indirectly through the delegate attached to it
+  foo_result = del4(); //here we are calling foo indirectly through the delegate attached to it
 }
 ```
 
