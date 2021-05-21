@@ -1,11 +1,14 @@
-The syntax to create an event would be like ``event MyEvent Trigger
+The syntax to create an event would be like ```
+event MyEvent Trigger
 {
 the code...
-}``
+}
+```
 
 where 'Trigger' could be a condition, i.e, lets say we wanna execute this event when a global variable 'x' is 5, then:
 
-```event MyEvent x == 5
+```
+event MyEvent x == 5
 {
 ...
 }
