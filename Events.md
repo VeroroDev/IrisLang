@@ -1,4 +1,5 @@
-The syntax to create an event would be like ```
+The syntax to create an event would be like
+```
 event MyEvent Trigger
 {
 the code...
